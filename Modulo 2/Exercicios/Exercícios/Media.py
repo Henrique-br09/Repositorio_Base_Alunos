@@ -1,0 +1,11 @@
+print('| ------------------------ |')
+print("|    AVALIAÇÃO MENSAL      |")
+print('| ------------------------ |')
+nome = (input('Nome do aluno:'))
+nota_1 = float(input('nota da primeira prova:'))
+nota_2 = float(input('nota da segunda prova:'))
+nota_3 = float(input("nota da terceira prova:"))
+print("| ------------------------ |")
+media = (nota_1 + nota_2 + nota_3) /3 
+print(f"| Aluno:{nome} | Aprovado? {media >= 5} ")
+print('| ------------------------ |')
